@@ -1,0 +1,106 @@
+h2{
+    font-size: 2.8vh;
+}
+
+p{
+    font-size: 1.6vh;
+}
+
+/* ------------------ navbar ---------------------*/
+
+.img-logo{
+    width: 100px;
+    height: 149px;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.58);
+}
+
+/* ------------------ container-prin -------------------*/
+
+.container-prin{
+    display: flex;
+    background: black;
+    width: 100%;
+    height: 88vh;
+}
+
+.container-prin img{
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* object-position: 0 -195px; */
+}
+
+.container-prin p{
+    color: white;
+    position: absolute;
+}
+
+.container-prin h2{
+    position: absolute;
+    color: white;
+}
+
+/* --------------------- cards ---------------------------*/
+
+.cards{
+    width: 100%;
+}
+
+.card-phrases{
+}
+
+.card-phrases p{
+    text-align: center;
+}
+
+.container-cards{
+    margin:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin: 0 29px;
+    
+}
+
+.card-img-top{
+    margin: 0 0 20px 0;
+}
+
+.card-tickets{
+    display: flex;
+}
+
+.card-tickets h4{
+    margin: 5px 10px 5px 0;
+}
+
+.ticket{
+    padding: 3px 8px 7px 8px;
+    border-radius: 12%;
+}
+
+.yellow{
+    background-color: rgb(255, 196, 0);
+}
+
+.blue{
+    background-color: rgb(0, 207, 207);
+    color: white;
+}
+
+.smoke{
+    background-color: rgb(102, 102, 102);
+    color: white;
+}
+
+.red{
+    background-color: rgb(253, 66, 75);
+    color: white;
+}

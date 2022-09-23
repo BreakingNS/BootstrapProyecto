@@ -99,8 +99,17 @@ p{
 
 } */
 
+.card-phrases{
+
+}
+
 .card-phrases p{
     text-align: center;
+    margin: 0;
+}
+
+.oradores{
+    font-size: 4vh;
 }
 
 .container-cards{
@@ -179,4 +188,33 @@ p{
     font-size: 1.607vh;
     letter-spacing: 0.07vh;
     margin: 20px;
+}
+
+.btn1{
+    position: static;
+    border-radius: 6%;
+    padding: 5px 10px;
+    margin: 0 20px;
+    font-size: 1.7vh;
+}
+
+/* --------------------- Conviertete en orador ---------------------*/
+
+.conv-orador{
+    width: 48.7%;
+    margin: auto;
+}
+
+.mb-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mb-3 input{
+    width: 48%; 
+}
+
+.form-textarea{
+    padding: 10px 20px;
+    font-size: 2.45vh;
 }

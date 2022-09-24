@@ -7,15 +7,6 @@ p{
 }
 
 /* ------------------ navbar ---------------------*/
-.container-prin img{
-    opacity: 1;
-    width: 10%;
-}
-
-.img-logo{
-    position: relative;
-    width: 20%;
-}
 
 .navbar{
     width: 100%;
@@ -25,34 +16,12 @@ p{
     z-index: 20;
 }
 
-.navbar-nav{
-    text-align: right;
-}
-
 .nav-link{
     color: rgb(155, 155, 158);
 }
 
 .nav-item{
     font-size: 1.4rem;
-}
-
-.btn-primary{
-    position: absolute;
-    bottom: 285px;
-    right: 158px;
-    font-size: 23px;
-    padding: 10px 17px;
-    background-color: rgb(39, 168, 68);
-    border: none;
-}
-
-.btn-outline-light{
-    position: absolute;
-    bottom: 285px;
-    right: 373px;
-    font-size: 23px;
-    padding: 10px 18px;
 }
 
 /* ------------------ container-prin -------------------*/
@@ -89,6 +58,24 @@ p{
     right: 157px;
 }
 
+.btn-primary{
+    position: absolute;
+    bottom: 285px;
+    right: 158px;
+    font-size: 23px;
+    padding: 10px 17px;
+    background-color: rgb(39, 168, 68);
+    border: none;
+}
+
+.btn-outline-light{
+    position: absolute;
+    bottom: 285px;
+    right: 373px;
+    font-size: 23px;
+    padding: 10px 18px;
+}
+
 /* --------------------- cards ---------------------------*/
 
 .cards{
@@ -99,8 +86,9 @@ p{
 
 } */
 
-.card-phrases{
-
+.card-phrases u{
+    border-bottom: 1px dashed #999;
+    text-decoration: none; 
 }
 
 .card-phrases p{
@@ -108,8 +96,18 @@ p{
     margin: 0;
 }
 
+.conviertete{
+    padding: 32px 0 0 0;
+}
+
 .oradores{
     font-size: 4vh;
+}
+
+.charla-ignite{
+    font-size: 1.96vh;
+    text-decoration: none;
+    padding: 0 0 9px 0;
 }
 
 .container-cards{
@@ -211,10 +209,59 @@ p{
 }
 
 .mb-3 input{
-    width: 48%; 
+    width: 48%;
 }
 
 .form-textarea{
     padding: 10px 20px;
     font-size: 2.45vh;
 }
+
+.rec{
+    color: rgb(114, 126, 135);
+}
+
+.btn-success-o{
+    background: rgb(150, 201, 62);
+    border: none;
+    width: 100%;
+    height: 54px;
+    font-size: 2.45vh;
+    margin-bottom: 20px;
+}
+
+/* ---------------------- footer ------------------- */
+
+footer{
+    width: 100%;
+    height: 117px;
+    background: linear-gradient(90deg, rgba(28,54,67,1) 0%, rgba(29,82,113,1) 100%);
+}
+
+.footer{
+    background: linear-gradient(90deg, rgba(28,54,67,1) 0%, rgba(29,82,113,1) 100%);
+}
+
+.navbar-collapse{
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-item-f{
+    width: 125px;
+    text-align: center;
+    font-size: 2vh;
+    margin: 0 36px;
+}
+
+.nav-link-f{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.nav-link-f:hover{
+    color: rgb(255, 94, 0);
+}
+
